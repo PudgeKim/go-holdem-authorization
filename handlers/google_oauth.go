@@ -5,6 +5,7 @@ import (
 	"database/sql"
 	"encoding/base64"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"github.com/Pudgekim/application"
 	"github.com/Pudgekim/domain/entity"
@@ -86,8 +87,8 @@ func (h *Handler) GoogleAuthCallBack(c *gin.Context) {
 
 	user, err = interactor.GetUser(ctx, "123")
 	if err != nil {
-		if err == sql.ErrNoRows {
-			user = entity.NewUser(userInfo.Id, userInfo.GivenName, userInfo.Email, 0)
+		if errors.Is(err, sql.ErrNoRows) {
+			user = entity.NewUser(userInfo.Id, userInfo.GivenName, userInfo.Email)
 			addUserErr := interactor.AddUser(ctx, user)
 			if addUserErr != nil {
 				c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
