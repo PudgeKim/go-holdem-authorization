@@ -2,8 +2,8 @@ package persistence
 
 import (
 	"context"
-	"github.com/Pudgekim/domain/entity"
-	"github.com/Pudgekim/domain/repository"
+	"github.com/PudgeKim/go-holdem-authorization/domain/entity"
+	"github.com/PudgeKim/go-holdem-authorization/domain/repository"
 	"github.com/jmoiron/sqlx"
 )
 

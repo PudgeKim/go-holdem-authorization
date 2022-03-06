@@ -2,9 +2,9 @@ package protoserver
 
 import (
 	"context"
-	"github.com/Pudgekim/application"
-	"github.com/Pudgekim/domain/repository"
-	pb "github.com/Pudgekim/protos"
+	"github.com/PudgeKim/go-holdem-authorization/application"
+	"github.com/PudgeKim/go-holdem-authorization/domain/repository"
+	pb "github.com/PudgeKim/go-holdem-protos/protos"
 )
 
 type Auth struct {

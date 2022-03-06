@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"github.com/Pudgekim/application"
+	"github.com/PudgeKim/go-holdem-authorization/application"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	pb "github.com/Pudgekim/protos"
+	pb "github.com/PudgeKim/go-holdem-protos/protos"
 	"google.golang.org/grpc"
 	"time"
 )

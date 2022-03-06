@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"github.com/Pudgekim/domain/repository"
+	"github.com/PudgeKim/go-holdem-authorization/domain/repository"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

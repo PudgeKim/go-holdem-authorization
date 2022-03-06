@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/Pudgekim/db"
-	"github.com/Pudgekim/handlers"
-	"github.com/Pudgekim/infrastructure/persistence"
-	pb "github.com/Pudgekim/protos"
-	"github.com/Pudgekim/protoserver"
+	"github.com/PudgeKim/go-holdem-authorization/db"
+	"github.com/PudgeKim/go-holdem-authorization/handlers"
+	"github.com/PudgeKim/go-holdem-authorization/infrastructure/persistence"
+	"github.com/PudgeKim/go-holdem-authorization/protoserver"
+	pb "github.com/PudgeKim/go-holdem-protos/protos"
 	"google.golang.org/grpc"
 	"net"
 )

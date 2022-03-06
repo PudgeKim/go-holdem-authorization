@@ -2,7 +2,7 @@ package repository
 
 import (
 	"context"
-	"github.com/Pudgekim/domain/entity"
+	"github.com/PudgeKim/go-holdem-authorization/domain/entity"
 )
 
 type UserRepository interface {
