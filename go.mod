@@ -4,7 +4,7 @@ go 1.16
 
 require (
 	cloud.google.com/go v0.100.2 // indirect
-	github.com/PudgeKim/go-holdem-protos v0.0.0-20220306094311-99c19d88e1c4 // indirect
+	github.com/PudgeKim/go-holdem-protos v0.0.0-20220312023946-de26e3a8730a // indirect
 	github.com/gin-gonic/gin v1.7.7
 	github.com/go-playground/validator/v10 v10.10.0 // indirect
 	github.com/jmoiron/sqlx v1.3.4

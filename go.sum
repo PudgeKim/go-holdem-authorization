@@ -53,6 +53,14 @@ github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym
 github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAElWljhcU=
 github.com/PudgeKim/go-holdem-protos v0.0.0-20220306094311-99c19d88e1c4 h1:z9uqWklJQkkuyX+5Z3z99v4sw0YQK+lMLGH4gR726xs=
 github.com/PudgeKim/go-holdem-protos v0.0.0-20220306094311-99c19d88e1c4/go.mod h1:GsumDR+wSr5Nr6UdHUop11MVx57WKJrycPb95y6q3m0=
+github.com/PudgeKim/go-holdem-protos v0.0.0-20220312015249-8d5c0afdf032 h1:jesxl/nmCCPR7PoqKXTl92hWpcsrJdmlbpHnirMGjLk=
+github.com/PudgeKim/go-holdem-protos v0.0.0-20220312015249-8d5c0afdf032/go.mod h1:GsumDR+wSr5Nr6UdHUop11MVx57WKJrycPb95y6q3m0=
+github.com/PudgeKim/go-holdem-protos v0.0.0-20220312022907-520bd4e93d11 h1:qMi1iAnUu1+N4VEsTK3GRxFVTspdzB/jYvIayw56YcA=
+github.com/PudgeKim/go-holdem-protos v0.0.0-20220312022907-520bd4e93d11/go.mod h1:GsumDR+wSr5Nr6UdHUop11MVx57WKJrycPb95y6q3m0=
+github.com/PudgeKim/go-holdem-protos v0.0.0-20220312023408-4efc10da883b h1:lQs0gEuSfnh9oVPfUja4p05lYiCI3N8wgKXsgnFrXDA=
+github.com/PudgeKim/go-holdem-protos v0.0.0-20220312023408-4efc10da883b/go.mod h1:GsumDR+wSr5Nr6UdHUop11MVx57WKJrycPb95y6q3m0=
+github.com/PudgeKim/go-holdem-protos v0.0.0-20220312023946-de26e3a8730a h1:d06retyrwKMT4JTF/Zbw6spGMYqy1rhWBb9zn81y8U0=
+github.com/PudgeKim/go-holdem-protos v0.0.0-20220312023946-de26e3a8730a/go.mod h1:GsumDR+wSr5Nr6UdHUop11MVx57WKJrycPb95y6q3m0=
 github.com/antihax/optional v1.0.0/go.mod h1:uupD/76wgC+ih3iEmQUL+0Ugr19nfwCT1kdvxnR2qWY=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/cespare/xxhash v1.1.0/go.mod h1:XrSqR1VqqWfGrhpAt58auRo0WTKS1nRRg3ghfAqPWnc=

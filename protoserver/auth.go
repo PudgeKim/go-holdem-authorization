@@ -35,3 +35,19 @@ func (a *Auth) GetUser(ctx context.Context, userId *pb.UserId) (*pb.User, error)
 
 	return protoUser, nil
 }
+
+func (a *Auth) SaveBalance(ctx context.Context, balanceReq *pb.BalanceRequest) (*pb.BalanceResponse, error) {
+	interactor := application.UserInteractor{Repository: a.userRepo}
+
+	balanceResponse := &pb.BalanceResponse{
+		TotalBalance: 0,
+	}
+
+	totalBalance, err := interactor.SaveBalance(ctx, balanceReq.UserId, balanceReq.BalanceChange)
+	if err != nil {
+		return balanceResponse, err
+	}
+
+	balanceResponse.TotalBalance = totalBalance
+	return balanceResponse, nil
+}

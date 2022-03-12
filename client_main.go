@@ -31,4 +31,10 @@ func clientMain() {
 		fmt.Println("client_main_user: ", user)
 	}
 	fmt.Println("client_main_user: ", user)
+
+	balanceResponse, err := client.SaveBalance(context.Background(), &pb.BalanceRequest{UserId: "107848443863300905065", BalanceChange: 100})
+	if err != nil {
+		fmt.Println("balanceResponse error: ", err.Error())
+	}
+	fmt.Println("balanceResponse: ", balanceResponse)
 }
